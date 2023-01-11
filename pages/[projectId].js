@@ -10,6 +10,9 @@ const info = ({ project }) => {
                 projectName={project.projectName}
                 projectStack={project.projectStack}
                 projectLink={project.projectLink}
+                overview={project.overview}
+                projectCode={project.projectCode}
+                tech={project.tech}
             />
         </div>
     );

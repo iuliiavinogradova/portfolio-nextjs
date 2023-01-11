@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
 
 
-const Info = ({ projectImg, projectName, projectStack, projectLink }) => {
+const Info = ({ projectImg, projectName, projectStack, projectLink, overview, projectCode, tech }) => {
     return (
         <div className='w-full'>
             <div className='w-screen h-[50vh] relative'>
@@ -27,14 +27,7 @@ const Info = ({ projectImg, projectName, projectStack, projectLink }) => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        This app was built using React JS and is hosted on Firebase. Users
-                        are able to search properties based on an Address, City, or ZIP code
-                        to retrieve a list of active properties currently for sale. You will
-                        be able to view property information as well as the specific
-                        location of the property integrated with the Google Maps API. User
-                        authentication is available so you can signup and signin to your
-                        account with an email address in order to save your favorite
-                        properties. This is made possible with Zillow API.
+                        {overview}
                     </p>
                     <a
                         href={projectLink}
@@ -44,7 +37,7 @@ const Info = ({ projectImg, projectName, projectStack, projectLink }) => {
                         <button className='px-8 py-2 mt-4 mr-8'>Live</button>
                     </a>
                     <a
-                        href='https://github.com/fireclint/property-finder'
+                        href={projectCode}
                         target='_blank'
                         rel='noreferrer'
                     >
@@ -53,26 +46,14 @@ const Info = ({ projectImg, projectName, projectStack, projectLink }) => {
                 </div>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
                     <div className='p-2'>
-                        <p className='text-center font-bold pb-2'>Project</p>
+                        <p className='text-center font-bold pb-2'>Tech</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' />Js
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' />Js
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' />Js
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' />Js
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' />Js
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' />Js
-                            </p>
+                            {tech.map((stack, index) => (
+                                <p key={index} className='text-gray-300 py-2 flex items-center'>
+                                    <RiRadioButtonFill className='pr-1' />
+                                    {stack}
+                                </p>
+                            ))}
                         </div>
                     </div>
                 </div>
