@@ -8,7 +8,7 @@ import Img4 from '../public/assets/projects/agelessfun.png';
 export const ProjectData = [
     {
         image: Img1,
-        projectName: 'Interactive down payment plan',
+        projectName: 'Down payment plan',
         projectStack: 'Html, CSS, JavaScript',
         tech: ['Html', 'CSS', 'JavaScript'],
         projectCode: 'https://github.com/iuliiavinogradova/down-payment-plan',
