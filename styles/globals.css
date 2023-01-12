@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth!important;
+  font-family: 'Noto Sans Tangsa', sans-serif;
 }
 
 @layer base {

@@ -95,7 +95,7 @@ const NavBar = () => {
             {/*Overlay */}
             <div className={nav ? 'fixed top-0 left-0 w-full h-full bg-black/70 md:hidden' : ''}>
                 <div className={nav
-                    ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:-[45%] h-screen bg-white p-10 ease-in duration-300'
+                    ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:-[45%] h-screen bg-[royalblue] p-10 ease-in duration-300'
                     : 'fixed left-[-100%] top-0 p-10 ease-in duration-300'}>
                     <div>
                         <div className='flex w-full items-center justify-between'>

@@ -21,7 +21,7 @@ const Projects = () => {
 
                             />
                         )
-                    })};
+                    })}
                     {/* 
                     <Project projectImg={Img1} projectCode={''} projectLink={'/info'} projectName={'React App'} projectStack={'ReactJS'} />
                     <Project projectImg={Img1} projectCode={''} projectLink={'/info'} projectName={'React App'} projectStack={'ReactJS'} />
