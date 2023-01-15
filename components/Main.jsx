@@ -10,9 +10,9 @@ const Main = () => {
                     <p>Let's make a digital world a more convenient place</p>
                     <h1 className='py-4 text-gray-100'>Hi, I am <span className='text-[royalblue]'>Iuliia</span></h1>
                     <h2 className='text-gray-300 py-2'>A Full-Stack Developer</h2>
-                    <p className='py-4 text-gray-400 max-w-[70%] m-auto'>Monash IT Graduate with strong interpersonal skills and an ability to adapt in Agile team environments.</p>
+                    <p className='py-4 text-gray-400 max-w-[70%] m-auto'>Monash IT Postgraduate with strong interpersonal skills and an ability to work in Agile team environments.</p>
                     <div className='flex justify-between items-center max-w-[330px] m-auto py-4'>
-                        <a href='mailto:iuliiatech@gmail.com'>
+                        <a href='mailto:iuliia.tech@gmail.com'>
                             <div className='rounded-full shadow-lg shadow-gray-300 cursor-pointer p-6 hover:scale-105 ease-in duration-300'>
                                 <AiOutlineMail />
                             </div>

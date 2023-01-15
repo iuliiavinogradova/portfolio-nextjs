@@ -152,7 +152,7 @@ const NavBar = () => {
                                         <FaLinkedinIn />
                                     </div>
                                 </a>
-                                <a href='mailto:iuliiatech@gmail.com'>
+                                <a href='mailto:iuliia.tech@gmail.com'>
                                     <div className='shadow-gray-400 rounded-full shadow-lg cursor-pointer hover:scale-105 ease-in duration-300 p-3'>
                                         <AiOutlineMail />
                                     </div>

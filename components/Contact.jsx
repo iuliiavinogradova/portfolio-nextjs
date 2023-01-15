@@ -34,7 +34,7 @@ const Contact = () => {
                                             <FaLinkedinIn />
                                         </div>
                                     </a>
-                                    <a href="mailto:iuliiatech@gmail.com">
+                                    <a href="mailto:iuliia.tech@gmail.com">
                                         <div className='rounded-full shadow-lg shadow-gray-300 cursor-pointer p-6 hover:scale-105 ease-in duration-300'>
                                             <AiOutlineMail />
                                         </div>

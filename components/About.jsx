@@ -8,7 +8,7 @@ const About = () => {
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest text-[royalblue]'>About</p>
                     <h2 className='py-4'>Let me introduce myself</h2>
-                    <p className='py-2 text-gray-300'>Technical consultant with 1+ years of experience as Python and Web developer. Monash IT Graduate with strong interpersonal skills and an ability to adapt in Agile team environments. Ongoing teaching engagement demonstrates a focus on community, while work in technical consultancy / software development demonstrates reliability, honesty and ability to collaborate.</p>
+                    <p className='py-2 text-gray-300'>Technical consultant with 1+ years of experience as Python and Web developer. Monash IT Postgraduate with strong interpersonal skills and an ability to adapt in Agile team environments. Ongoing teaching engagement demonstrates a focus on community, while work in technical consultancy / software development demonstrates reliability, honesty and ability to collaborate.</p>
                     <p className='py-2 text-gray-300 underline cursor-pointer'><a href='#projects'>My favourite projects</a></p>
                     <p className='py-2 text-gray-300 underline cursor-pointer'><a href='https://github.com/iuliiavinogradova'>More projects on my GitHub</a></p>
                 </div>
